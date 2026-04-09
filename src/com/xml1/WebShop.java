@@ -60,7 +60,7 @@ WebDriver driver;
 	@Parameters({"firstname","lastname","email","password","confirmps"})
 	public void demoWebShopRegister(String fn, String ln, String email, String ps, String cps)
 	{
-		System.out.println("Actual Test Method ---- Demo Web Shop Register: ");
+		System.out.println("Demo Web Shop Register: ");
 		driver.findElement(By.className("forcheckbox")).click();
 		driver.findElement(By.name("FirstName")).sendKeys(fn);
 		driver.findElement(By.name("LastName")).sendKeys(ln);	
