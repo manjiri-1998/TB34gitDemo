@@ -53,7 +53,7 @@ WebDriver driver;
 	@BeforeMethod
 	public void dbConnect()
 	{
-		System.out.println("Before Method ------ DB Connection");
+		System.out.println("Before Method ------ DB Connection's");
 	}
 	
 	@Test
