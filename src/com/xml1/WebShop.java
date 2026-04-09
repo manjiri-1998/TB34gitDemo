@@ -40,7 +40,7 @@ WebDriver driver;
     public void enterURL(String url)
 	{
 		driver.get(url);
-		System.out.println("Before Test ------ Open URL");
+		System.out.println("Before Test ------ Open URL's");
 	}
 	
 	@BeforeClass
